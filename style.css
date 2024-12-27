@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background: #FFCCCC;
+}
+#wrapper{
+    margin: 0% auto;
+}
+#header{
+    padding: 20px;
+    text-align: center;
+
+
+}
+#content{
+    border: 1px solid black;
+}
+#bodyy{
+    display: flex;
+
+}
+#tainer{
+    font-weight: bold;
+
+}
+
