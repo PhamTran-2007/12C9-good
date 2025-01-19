@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>12C9 With Love</title>
+      <link rel="stylesheet" href="style.css">
+      <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+      <nav>
+         <div class="logo">
+            12C9 With Love
+         </div>
+         <label for="btn" class="icon">
+         <span class="fa fa-bars"></span>
+         </label>
+         <input type="checkbox" id="btn">
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+               <label for="btn-1" class="show">Click Here +</label>
+               <a href="clickhere.html">Click Here +</a>
+               <input type="checkbox" id="btn-1">
+               <ul>
+                  <li><a href="lop10.html">Lớp 10</a></li>
+                  <li><a href="lop11.html">Lớp 11</a></li>
+                  <li><a href="lop12.html">Lớp 12</a></li>
+               </ul>
+            </li>
+            <li>
+               <label for="btn-2" class="show">About +</label>
+               <a href="Video.html">About +</a>
+               <input type="checkbox" id="btn-2">
+               <ul>
+                  <li><a href="more.html">Video</a></li>
+                  <li><a href="event.html">Event</a></li>
+                  <li><a href="specialday.html">Special Days</a></li>
+                  <li><a href="#">Tâm Thư</a></li>
+               </li>
+               </ul>
+            </li>
+            <li><a href="meme.html">Meme</a></li>
+            <li><a href="contact.html">Contact</a></li>
+         </ul>
+      </nav>
+      <div class="content">
+         <header><Span style="color: skyblue;font-size: 40px;">Xin Chào,</Span>  Đây là Page của 12C9</header>
+         <p>Chúc bạn có 1 trải nghiệm vui vẻ !!!</p>
+      </div>
+      <script>
+         $('.icon').click(function(){
+           $('span').toggleClass("cancel");
+         });
+      </script>
+   </body>
+</html>
